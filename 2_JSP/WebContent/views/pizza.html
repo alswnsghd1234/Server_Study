@@ -17,14 +17,16 @@
 
 
     <div>
-      <b>이름</b> <input type="text">
-      <label for="userName"></label> <br>
+      <b>이름</b> <input type="text" style="text-align: center;">
+      <label for="userName" ></label> <br>
       <b>전화번호</b> <input type="text">
       <label for="phone"></label><br>
       <b>주소</b><input type="text">
       <label for="address"></label><br>
-      <b>요청사항</b><input type="text">
-      <label for="message"></label><br>
+      <b>요청사항</b>
+      <textarea  cols="20" rows="3" >
+        
+      </textarea>
     </div>
   </fieldset>
 
@@ -32,7 +34,23 @@
     <legend>주문정보</legend>
     <div>
       <b>피자</b>
-      <b>토핑</b>
+      <div><b>토핑</b>
+        <input type="checkbox" id="고구마무스">
+        <label for="고구마무스">고구마무스</label>
+        <input type="checkbox" id="콘크림무스">
+        <label for="콘크림무스">콘크림무스</label>
+        <input type="checkbox" id="파인애플토핑">
+        <label for="파인애플토핑">파인애플토핑</label> <br>
+        <input type="checkbox" id="치즈바이트">
+        <label for="치즈바이트">치즈바이트</label>
+        <input type="checkbox" id="치즈크러스트">
+        <label for="치즈크러스트">치즈크러스트</label>
+        <input type="checkbox" id="치즈토핑">
+        <label for="치즈토핑">치즈토핑</label>
+        
+        
+      </div>
+      
 
     </div>
   </fieldset>

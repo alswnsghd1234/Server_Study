@@ -1,0 +1,9 @@
+127.0.0.1 - - [28/Apr/2022:11:40:14 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:11:40:15 +0900] "GET /2_JSP/ HTTP/1.1" 200 2722
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:11:40:18 +0900] "GET /2_JSP/views/04_PizzaOrderForm.jsp HTTP/1.1" 200 2801
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:11:40:30 +0900] "GET /2_JSP/confirmPizza.do?userName=%ED%95%98%EC%9D%B4&phone=010&address=%EC%95%84&message=%EC%95%84&pizza=%EC%BD%A4%EB%B9%84%EB%84%A4%EC%9D%B4%EC%85%98%ED%94%BC%EC%9E%90&topping=%EC%BD%98%ED%81%AC%EB%A6%BC%EB%AC%B4%EC%8A%A4&topping=%EC%B9%98%EC%A6%88%ED%81%AC%EB%9F%AC%EC%8A%A4%ED%8A%B8&side=%EC%82%AC%EC%9D%B4%EB%8B%A4&side=%ED%94%BC%ED%81%B4&payment=card HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:14:02:50 +0900] "GET /2_JSP/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:14:02:52 +0900] "GET /2_JSP/views/04_PizzaOrderForm.jsp HTTP/1.1" 200 2801
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:14:03:01 +0900] "GET /2_JSP/confirmPizza.do?userName=%E3%85%87%E3%85%87&phone=12&address=%E3%85%87%E3%85%87&message=%E3%85%87%E3%85%87&pizza=%EC%BD%A4%EB%B9%84%EB%84%A4%EC%9D%B4%EC%85%98%ED%94%BC%EC%9E%90&topping=%EA%B3%A0%EA%B5%AC%EB%A7%88%EB%AC%B4%EC%8A%A4&topping=%EC%B9%98%EC%A6%88%EB%B0%94%EC%9D%B4%ED%8A%B8&side=%ED%95%AB%EC%86%8C%EC%8A%A4&payment=card HTTP/1.1" 200 704
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:14:04:21 +0900] "GET /2_JSP/views/04_PizzaOrderForm.jsp HTTP/1.1" 200 2801
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:14:04:27 +0900] "GET /2_JSP/confirmPizza.do?userName=dd&phone=11&address=dd&message=dd&pizza=%EC%BD%A4%EB%B9%84%EB%84%A4%EC%9D%B4%EC%85%98%ED%94%BC%EC%9E%90&topping=%EA%B3%A0%EA%B5%AC%EB%A7%88%EB%AC%B4%EC%8A%A4&topping=%EC%B9%98%EC%A6%88%EB%B0%94%EC%9D%B4%ED%8A%B8&side=%ED%95%AB%EC%86%8C%EC%8A%A4&payment=card HTTP/1.1" 200 676
